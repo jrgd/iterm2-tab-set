@@ -86,7 +86,7 @@ function process_args () {
   }
 
   if (args.all) {
-    setBadge(args.all)
+    //setBadge(args.all)
     setTabTitle(args.all, definedOr(args.mode, 1))
     var col = decodeColorSpec(args.all)
     if (!col) {
